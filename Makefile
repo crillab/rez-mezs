@@ -1,7 +1,7 @@
 STANDARD := -std=c++20
 
-CADICAL_INC := /home/daniel/PHP/cadical/src/
-CADICAL_LIB_DIR := /home/daniel/PHP/cadical/build/
+CADICAL_INC := cadical/src/
+CADICAL_LIB_DIR := cadical/build/
 CADICAL_LIB := -lcadical
 MUS_INC := include
 
