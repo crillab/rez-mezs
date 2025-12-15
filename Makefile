@@ -8,7 +8,7 @@ MUS_INC := include
 mus: src/main.cpp
 	g++ ${STANDARD} -o $@ src/main.cpp src/cardinality.cpp src/util.cpp -O3 -I${MUS_INC} -I${CADICAL_INC} -L${CADICAL_LIB_DIR} ${CADICAL_LIB}
 
-full: src/full.cpp src/cardinality.cpp src/util.cpp
+rez-mež: src/full.cpp src/cardinality.cpp src/util.cpp
 	g++ ${STANDARD} -o $@ $^ -O3 -I${MUS_INC} -I${CADICAL_INC} -L${CADICAL_LIB_DIR} ${CADICAL_LIB}
 
 mss: src/mss.cpp
