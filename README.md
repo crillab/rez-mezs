@@ -1,3 +1,4 @@
+# Rez-Mež
 ## Running
 - Modify Makefile.
   - CADICAL_INC should find src of CaDiCaL, and CADICAL_LIB_DIR its build.
@@ -7,7 +8,9 @@
 - To convert to DNF:
   - make to_dnf
   - ./to_dnf <CNF>
-
+## Not All Countermodels Are Equal
+- $\delta_H$ ./full <input> -a
+- $\nu_o$ ./full <input> -c
 ## Licensing
 This software has been developed for the project BLaSST. It is released under the terms of the GNU LGPL v3.0 licence.
 
