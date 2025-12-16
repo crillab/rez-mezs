@@ -1,4 +1,5 @@
 # Rez-Mež
+Measures the resistance of countermodels to iteratively applying families of extensive operators to the original formula.
 ## Running
 - Modify Makefile.
   - CADICAL_INC should find src of CaDiCaL, and CADICAL_LIB_DIR its build.
